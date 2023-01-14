@@ -1,0 +1,52 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: mediumpurple;
+    color: lightpink;
+    font-size: 16px;
+  }
+  
+  h1, p {
+    margin: 1em auto;
+    text-align: center;
+  }
+  
+  
+  form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+  
+  fieldset {
+    border: 4px dotted; 
+    margin: 1em;
+    border-color: yellow;
+    
+    
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    margin: 1em auto;
+    
+  }
+  
+  textarea {
+    margin: 10px 0 0 0;
+    width: 100%;
+  }
+  
+  img {
+    height: 100px;
+    margin: auto;
+    display: block;
+  }

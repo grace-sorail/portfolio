@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <img src="http://www.freeiconspng.com/uploads/crescent-moon-png-17.png" alt="moon icon">
+    <h1 id="title">Sailor Moon Survey</h1>
+    <p id="description">take this survery or else >:(
+    </p>
+    <form method="post" id="survey-form">
+      <fieldset>
+        <label id="name-label" for="name-label">Enter your name: 
+      <input placeholder="usagi tsukino" id="name" type="text" required /></label>
+      <label id="email-label" for="email-label">Enter your email: <input id="email" type="email"  placeholder="bunhead@luna.com" required /></label>
+      <label id="number-label" for="number-label">Age (optional): 
+      <input placeholder="14" id="number" type="number" min="13" max="120" />
+      </fieldset>
+      <fieldset>
+          <label for="dropdown">Who's your favorite sailor scout?</label>
+        <select name="dropdown" id="dropdown">
+          <option value="">(select one)</option>
+          <option value="1">sailor moon</option>
+          <option value="2">sailor mercury</option>
+          <option value="3">sailor mars</option>
+          <option value="4">sailor jupiter</option>
+          <option value="5">sailor venus</option>
+          </select>
+      </fieldset>
+      <fieldset>
+        <label id="color-label" for="color-label">What color would your sailor uniform be?</label>
+        <label for="blue">
+        <input value="blue" id="blue" type="radio" name="sailor-color" class="inline" />Blue</label>
+        <label for="red">
+          <input value="red" id="red" type="radio" name="sailor-color" class="inline" />Red</label>
+        </label>
+                <label for="green">
+          <input value="green" id="green" type="radio" name="sailor-color" class="inline" />Green</label>
+        </label>
+        <label for="orange">
+          <input value="orange" id="orange" type="radio" name="sailor-color" class="inline" />Orange</label>
+        </label>
+      </fieldset>
+      <fieldset>
+        <label for="series" id="series">How much of the series have you seen?</label>
+        <label><input value="OS" type="checkbox" />Original series S1-5</label>
+        <label><input value="R" type="checkbox" />Sailor Moon R: The Promise of the Rose</label>
+        <label><input value="S" type="checkbox" />Sailor Moon S: Hearts in Ice</label>
+        <label><input value="superS" type="checkbox" />Sailor Moon SuperS: Black Dream Hole</label>
+        <label><input value="crystal" type="checkbox" />Sailor Moon Crystal</label>
+        <label><input value="eternal" type="checkbox" />Sailor Moon Eternal</label>
+      </fieldset>
+      <fieldset>
+        <label for="question">Why do you like Sailor Moon?</label>
+        <textarea id="question" name="question" rows="6" cols="24" placeholder="I like Sailor Moon because..."></textarea>
+      </fieldset>
+      <input id="submit" type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
