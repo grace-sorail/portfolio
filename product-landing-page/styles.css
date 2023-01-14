@@ -1,0 +1,142 @@
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ffdbf5;
+}
+
+header {
+  position: fixed;
+  background-color: #ffdbf5;
+  width: 100%;
+  height: 110px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: dashed #d43749 3px;
+  
+}
+
+
+img {
+  width: 100px;
+  height: 100px;
+  padding-left: 2px;
+
+}
+
+.header-title {
+  
+  display: inline-block;
+  color: #be2739;
+  font-size: 40px;
+
+}
+
+nav {
+  width: 50%;
+  height: 100px;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-inline-start: 0;
+  margin-block: 0;
+  height: 100%;
+  list-style-type: none;
+  color: #be2739;
+  font-size: 22px;
+}
+
+
+li > a {
+  text-decoration: none;
+  color: #be2739;
+}
+
+.signup {
+  padding-top: 140px;
+  text-align: center;
+
+}
+
+.signup2 {
+  color: #be2739;
+  border: dashed #d43749 3px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.flavor-header {
+  color: #be2739;
+}
+
+.flavors {
+  padding-top: 10px;
+  text-align: center;
+  color: #d0707c;
+  align-items: center;
+
+}
+
+.cupcakeimg {
+  height: 40px;
+  width: 40px;
+  
+}
+
+
+.pricing {
+  text-align: center;
+  padding-top: 10px;
+  color: #d0707c;
+}
+
+.pricing-header {
+  color: #be2739;
+}
+
+.heart {
+  color: #be2739;
+}
+
+.about {
+  text-align: center;
+  padding-top: 10px;
+  color: #d0707c;
+  padding-bottom: 10px;
+}
+
+.about-header {
+  color: #be2739;
+
+}
+
+.stockimg {
+  text-align: center;
+  margin: 20px;
+}
+
+.stockcake {
+  width: 90%;
+  height: 75%;
+  
+}
+
+footer {
+  background-color: #d0707c;
+  color: #ffdbf5;
+  text-align: center;
+}
